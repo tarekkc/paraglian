@@ -1,0 +1,48 @@
+name: paragalien
+description: "ParaGalien v4 — Flutter app with Supabase, OneSignal, Riverpod and connectivity handling."
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Utilities
+  intl: ^0.19.0
+  path: ^1.9.0
+  http: ^1.2.0
+
+  # File handling
+  file_picker: ^8.0.0
+  flutter_image_compress: ^2.3.0
+  cached_network_image: ^3.4.1
+
+  # Backend
+  supabase_flutter: ^2.6.0
+
+  # Connectivity & local caching
+  connectivity_plus: ^6.0.0
+  shared_preferences: ^2.3.0
+
+  # Push notifications
+  onesignal_flutter: ^5.3.4
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/logo.png
